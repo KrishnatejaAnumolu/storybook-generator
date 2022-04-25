@@ -1,20 +1,30 @@
-### To install dependencies, run -
+### Installing dependencies,
 
 `npm install`
 
-### To start the app locally, run -
+### To start the app locally,
 
 `npm start`
 
-### To build the app, run -
+### For building the app,
 
 `npm run build`
 
-### To deploy the app to pcf, run -
+### For deploying the app to pcf,
 
-`cf push`
+After running the build script, `cf push`
 
-### To add new files, run -
+### For adding new files,
 
-- Add the new html file to `/htmlFiles` folder.
+- Create a new folder or add to existing folders in `/htmlFiles` folder.
 - Run the build script(`npm run build`) and deploy(`cf push`).
+
+### Folder structure
+
+*htmlFiles/\
+&ensp;*folder1/\
+&emsp;&emsp;*file1.html\
+&emsp;&emsp;*file2.html\
+&ensp;\*folder2/\
+&emsp;&emsp;*file3.html\
+&emsp;&emsp;*file4.html

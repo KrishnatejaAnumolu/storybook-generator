@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./script.js && start-storybook -p 6006",
-    "build": "node ./script.js && build-storybook -c .storybook -o build"
+    "start": "rm -rf stories && mkdir stories && node ./script.js && start-storybook -p 6006",
+    "build": "rm -rf stories && rm -rf build && mkdir stories && node ./script.js && build-storybook -c .storybook -o build"
   },
   "keywords": [],
   "author": "",

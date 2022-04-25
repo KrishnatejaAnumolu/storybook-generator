@@ -1,0 +1,7 @@
+---
+applications:
+  - name: pmb-docs
+    path: build
+    buildpack: staticfile_buildpack
+    disk_quota: 256MB
+    memory: 128MB

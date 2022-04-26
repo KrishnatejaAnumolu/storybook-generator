@@ -1,3 +1,7 @@
+### Storybook Generator
+
+Generates storybook stories directly based on the files in the `htmlFiles` directory. Gives a drop and drop solution to create storybook.
+
 ### Installing dependencies,
 
 `npm install`

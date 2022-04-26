@@ -2,6 +2,8 @@
 
 Generates storybook stories directly based on the files in the `htmlFiles` directory. Gives a drop and drop solution to create storybook.
 
+Note: This is just a simple storybook generator. It's just a simple tool based on [Storybook](https://storybook.js.org/) and not it's competitor. All credits to Storybook itself.
+
 ### Installing dependencies,
 
 `npm install`
